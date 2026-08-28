@@ -10,6 +10,8 @@ Blenderとゲーム制作の学習・開発記録。新しい記事から順に�
 
 ## Blender
 
+- [Day19：自動ウェイトとウェイトペイントで一体型メッシュを曲げる]({{ '/posts/blender-day19.html' | relative_url }})
+- [Day18：グラフエディターと時間差で動きを自然にする]({{ '/posts/blender-day18.html' | relative_url }})
 - [Day17：IKとFKを組み合わせて全身アニメーションを作る]({{ '/posts/blender-day17.html' | relative_url }})
 - [Day16：Armature・FK・IKでブロック人形の脚を動かす]({{ '/posts/blender-day16-armature-fk-ik-leg-rig.html' | relative_url }})
 - [Day15：人型ブロックアウトと光で「気配」を作る]({{ '/posts/blender-day15-character-blockout-horror-staging.html' | relative_url }})

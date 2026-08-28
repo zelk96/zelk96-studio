@@ -12,6 +12,6 @@ title: Home
 
 ## Latest
 
-### [Blender学習 Day17：IKとFKを組み合わせて全身アニメーションを作る]({{ '/posts/blender-day17.html' | relative_url }})
+### [Blender学習 Day19：自動ウェイトとウェイトペイントで一体型メッシュを曲げる]({{ '/posts/blender-day19.html' | relative_url }})
 
-IK・FK・キーフレームを組み合わせ、脚・腰・両腕を動かす全身ループアニメーションを制作。
+一体型メッシュと2本のボーンを自動ウェイトで関連付け、ウェイトペイントによる影響範囲と変形の違いを確認。
