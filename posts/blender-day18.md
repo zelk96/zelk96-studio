@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Blender学習 Day18：グラフエディターと時間差で動きを自然にする"
+description: "グラフエディターでFカーブを確認し、腕の時間差と手首の補助動作で全身ループを調整したDay18の学習記録。"
+permalink: /posts/blender-day18.html
 ---
 
 # Blender学習 Day18：グラフエディターと時間差で動きを自然にする

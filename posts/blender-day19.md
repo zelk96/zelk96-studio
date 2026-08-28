@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Blender学習 Day19：自動ウェイトとウェイトペイントで一体型メッシュを曲げる"
+description: "一体型メッシュと2本のボーンを自動ウェイトで関連付け、ウェイトペイントと関節変形を学んだDay19の学習記録。"
+permalink: /posts/blender-day19.html
 ---
 
 # Blender学習 Day19：自動ウェイトとウェイトペイントで一体型メッシュを曲げる
