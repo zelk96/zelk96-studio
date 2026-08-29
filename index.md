@@ -12,6 +12,6 @@ title: Home
 
 ## Latest
 
-### [Blender学習 Day19：自動ウェイトとウェイトペイントで一体型メッシュを曲げる]({{ '/posts/blender-day19.html' | relative_url }})
+### [Blender学習 Day20：肘関節の形状とウェイトを調整する]({{ '/posts/blender-day20.html' | relative_url }})
 
 一体型メッシュと2本のボーンを自動ウェイトで関連付け、ウェイトペイントによる影響範囲と変形の違いを確認。

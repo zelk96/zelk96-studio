@@ -10,6 +10,7 @@ Blenderとゲーム制作の学習・開発記録。新しい記事から順に�
 
 ## Blender
 
+- [Day20：肘関節の形状とウェイトを調整する]({{ '/posts/blender-day20.html' | relative_url }})
 - [Day19：自動ウェイトとウェイトペイントで一体型メッシュを曲げる]({{ '/posts/blender-day19.html' | relative_url }})
 - [Day18：グラフエディターと時間差で動きを自然にする]({{ '/posts/blender-day18.html' | relative_url }})
 - [Day17：IKとFKを組み合わせて全身アニメーションを作る]({{ '/posts/blender-day17.html' | relative_url }})
