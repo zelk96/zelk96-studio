@@ -11,6 +11,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day07-mouse-final-desk.html
 date: '2026-08-19'
+learning_log: true
+day: 7
 ---
 
 # Blender学習 Day 7：マウスを作り、1週目のデスクを完成させる

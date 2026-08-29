@@ -11,6 +11,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day03-desk-lamp.html
 date: '2026-08-15'
+learning_log: true
+day: 3
 ---
 
 # Blender学習 Day 3：デスクライトを作り、親子関係と発光を学ぶ

@@ -13,6 +13,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day14-lighting-camera.html
 date: '2026-08-26'
+learning_log: true
+day: 14
 ---
 
 # Blender学習 Day 14：照明とカメラで室内シーンを演出する

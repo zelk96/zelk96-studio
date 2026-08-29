@@ -13,6 +13,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day11-cylinder-uv-metal-materials.html
 date: '2026-08-23'
+learning_log: true
+day: 11
 ---
 
 # Blender学習 Day 11：円柱UVと金属PBRで錆びたゴミ箱を作る

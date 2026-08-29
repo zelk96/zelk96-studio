@@ -12,6 +12,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day10-uv-pbr-textures.html
 date: '2026-08-22'
+learning_log: true
+day: 10
 ---
 
 # Blender学習 Day 10：UV展開とPBRテクスチャで机と床に木の質感を付ける

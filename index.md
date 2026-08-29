@@ -12,6 +12,11 @@ title: Home
 
 ## Latest
 
-### [Blender学習 Day20：肘関節の形状とウェイトを調整する]({{ '/posts/blender-day20.html' | relative_url }})
+{% assign blender_posts = site.pages | where: "learning_log", true | sort: "day" | reverse %}
+{% for post in blender_posts limit: 1 %}
+### [{{ post.title }}]({{ post.url | relative_url }})
 
-一体型メッシュと2本のボーンを自動ウェイトで関連付け、ウェイトペイントによる影響範囲と変形の違いを確認。
+<p class="learning-date">投稿日：{{ post.date | date: "%Y.%m.%d" }}</p>
+
+{{ post.description }}
+{% endfor %}

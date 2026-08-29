@@ -11,6 +11,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day02-mug.html
 date: '2026-08-14'
+learning_log: true
+day: 2
 ---
 
 # Blender学習 Day 2：編集モードでマグカップを作る

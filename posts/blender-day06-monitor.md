@@ -11,6 +11,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day06-monitor.html
 date: '2026-08-18'
+learning_log: true
+day: 6
 ---
 
 # Blender学習 Day 6：面ごとのマテリアルと発光でPCモニターを作る

@@ -14,6 +14,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day16-armature-fk-ik-leg-rig.html
 date: '2026-08-28'
+learning_log: true
+day: 16
 ---
 
 # Blender学習 Day 16：Armature・FK・IKでブロック人形の脚を動かす

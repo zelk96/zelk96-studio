@@ -14,6 +14,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day15-character-blockout-horror-staging.html
 date: '2026-08-27'
+learning_log: true
+day: 15
 ---
 
 # Blender学習 Day 15：人型ブロックアウトと光で「気配」を作る

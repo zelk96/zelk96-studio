@@ -11,6 +11,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day05-chair.html
 date: '2026-08-17'
+learning_log: true
+day: 5
 ---
 
 # Blender学習 Day 5：ミラーモディファイアーで木製チェアを作る

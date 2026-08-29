@@ -11,6 +11,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day09-room-detailing.html
 date: '2026-08-21'
+learning_log: true
+day: 9
 ---
 
 # Blender学習 Day 9：机セットを部屋へ移し、室内シーンを完成させる

@@ -11,6 +11,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day01-desk.html
 date: '2026-08-13'
+learning_log: true
+day: 1
 ---
 
 # 【Blender学習 Day 1】初めての3Dモデリングで机を作ってみた

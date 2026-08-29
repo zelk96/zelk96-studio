@@ -3,6 +3,10 @@ layout: default
 title: "Blender学習 Day20：肘関節の形状とウェイトを調整する"
 description: "腕らしいシルエットと肘周辺のループを作り、体積維持・数値ウェイト・ぼかしを使って90度の関節変形を改善したDay20の学習記録。"
 permalink: /posts/blender-day20.html
+date: '2026-08-29'
+display_date: 2026.08.29
+learning_log: true
+day: 20
 ---
 
 # Blender学習 Day20：肘関節の形状とウェイトを調整する

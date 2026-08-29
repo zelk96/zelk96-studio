@@ -3,6 +3,10 @@ layout: default
 title: "Blender学習 Day17：IKとFKを組み合わせて全身アニメーションを作る"
 description: "IK・FK・キーフレームを組み合わせ、短い全身ループアニメーションを制作したDay17の学習記録。"
 permalink: /posts/blender-day17.html
+date: '2026-08-27'
+display_date: 2026.08.27
+learning_log: true
+day: 17
 ---
 
 # Blender学習 Day17：IKとFKを組み合わせて全身アニメーションを作る

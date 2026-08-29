@@ -12,6 +12,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day12-procedural-plaster-nodes.html
 date: '2026-08-24'
+learning_log: true
+day: 12
 ---
 
 # Blender学習 Day 12：ノードの流れを読み、プロシージャルな塗り壁を作る

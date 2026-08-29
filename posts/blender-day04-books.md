@@ -11,6 +11,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day04-books.html
 date: '2026-08-16'
+learning_log: true
+day: 4
 ---
 
 # Blender学習 Day 4：本を重ね、立体的な金文字タイトルを作る

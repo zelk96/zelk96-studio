@@ -13,6 +13,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day13-layered-door-masks.html
 date: '2026-08-25'
+learning_log: true
+day: 13
 ---
 
 # Blender学習 Day 13：マスクを重ね、塗装剥がれと錆のドアを作る

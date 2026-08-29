@@ -17,6 +17,7 @@ table{border-collapse:collapse;width:100%}th,td{border:1px solid #303640;padding
 blockquote{border-left:3px solid #4b5666;margin-left:0;padding-left:16px;color:#9ca6b4}
 .content img{display:block;max-width:100%;height:auto;margin:28px auto;border-radius:8px;border:1px solid #242932}
 .post-meta{color:#7e8998;font-size:.88rem;margin-top:-.5rem}
+.learning-date{color:#7e8998;font-size:.88rem}
 .content li+li{margin-top:.35em}
 .footer{padding:30px 0 50px;border-top:1px solid #242932;color:#697383;font-size:.82rem}
 @media(max-width:650px){.nav{align-items:flex-start;flex-direction:column;padding:14px 0}.content{padding-top:40px}nav{gap:12px}.hero{padding-top:28px}}

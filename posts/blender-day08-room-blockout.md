@@ -11,6 +11,8 @@ tags:
 - 学習記録
 permalink: /posts/blender-day08-room-blockout.html
 date: '2026-08-20'
+learning_log: true
+day: 8
 ---
 
 # Blender学習 Day 8：実寸で部屋を作り、ドアと窓を開ける
