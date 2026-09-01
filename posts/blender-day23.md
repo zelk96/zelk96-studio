@@ -18,7 +18,7 @@ day: 23
 
 最初に、胴体の下へ骨盤用のメッシュ `SH_PelvisMesh` を追加した。
 
-{% include post-image.html src="/images/day23/01.png" alt="骨盤用メッシュを追加した状態" %}
+![骨盤用メッシュを追加した状態](/zelk96-studio/images/day23/01.png)
 
 続いて、骨盤を制御するボーン `SH_Pelvis` を作成。
 
@@ -37,7 +37,7 @@ SH_Root
 
 ポーズモードで `SH_Pelvis` を回転させると、骨盤だけでなく、その子になっている胴体と腕も一緒に傾くことを確認できた。
 
-{% include post-image.html src="/images/day23/02.png" alt="骨盤ボーンを回転させて上半身が連動することを確認" %}
+![骨盤ボーンを回転させて上半身が連動することを確認](/zelk96-studio/images/day23/02.png)
 
 ## 太ももの作成
 
@@ -47,7 +47,7 @@ SH_Root
 
 そのため、骨盤と股関節の間に距離があっても、親子関係によって骨盤の動きへ追従する。
 
-{% include post-image.html src="/images/day23/03.png" alt="太もものメッシュとボーンを追加した状態" %}
+![太もものメッシュとボーンを追加した状態](/zelk96-studio/images/day23/03.png)
 
 太ももメッシュを `SH_Thigh` にボーンペアレントし、股関節から脚を回せることを確認した。
 
@@ -57,7 +57,7 @@ SH_Root
 
 ボーンは `SH_Thigh` の先端から押し出して `SH_Shin` を作成したため、太ももとすねは膝で接続された親子関係になっている。
 
-{% include post-image.html src="/images/day23/04.png" alt="すねのメッシュとボーンを追加した状態" %}
+![すねのメッシュとボーンを追加した状態](/zelk96-studio/images/day23/04.png)
 
 膝の動作を試したところ、このモデルではローカルZ軸のマイナス方向が自然な曲がり方になると分かった。
 
@@ -70,7 +70,7 @@ SH_Root
 
 これで膝は正しい方向にだけ曲がり、反対側へは曲がらなくなった。
 
-{% include post-image.html src="/images/day23/05.png" alt="膝を正しい方向へ曲げた状態" %}
+![膝を正しい方向へ曲げた状態](/zelk96-studio/images/day23/05.png)
 
 試しにローカルZ軸へ `120°` 回転させると、`-160°` を入力した場合と同じく制限値の `-135°` 側へ曲がった。
 
@@ -84,11 +84,11 @@ SH_Root
 
 `SH_Shin` の先端から足先へボーンを押し出し、`SH_Foot` と命名。足のメッシュをこのボーンへペアレントした。
 
-{% include post-image.html src="/images/day23/06.png" alt="足のメッシュとボーンを追加した状態" %}
+![足のメッシュとボーンを追加した状態](/zelk96-studio/images/day23/06.png)
 
 太もも・膝・足首をそれぞれ回し、片脚全体が階層どおりに連動することを確認した。
 
-{% include post-image.html src="/images/day23/07.png" alt="太もも、膝、足首を曲げた動作確認" %}
+![太もも、膝、足首を曲げた動作確認](/zelk96-studio/images/day23/07.png)
 
 ## アーマチュア内のオブジェクトを整理
 
@@ -100,7 +100,7 @@ Armatureモディファイアーの参照先は `EL_Armature` だったため変
 
 同様に、キャラクターの正面を示す `SH_ChestMarker` も `EL_Armature` の子として整理した。
 
-{% include post-image.html src="/images/day23/08.png" alt="EL_Armature内のオブジェクトを整理した状態" %}
+![EL_Armature内のオブジェクトを整理した状態](/zelk96-studio/images/day23/08.png)
 
 `WP_Armature` は腕のウェイトペイントを練習したときに作った旧アーマチュアだった。現在の全身リグでは使用していないが、今回は確認用として残しておく。
 
@@ -112,7 +112,7 @@ Armatureモディファイアーの参照先は `EL_Armature` だったため変
 
 `R` → `Z` → `Z` → `-90` で確認すると、肘が胸側へ自然に曲がり、反対方向への回転は止められるようになった。
 
-{% include post-image.html src="/images/day23/09.png" alt="肘が胸側へ曲がるように修正した状態" %}
+![肘が胸側へ曲がるように修正した状態](/zelk96-studio/images/day23/09.png)
 
 確認後は `Alt + R` ですべて初期姿勢へ戻した。
 
