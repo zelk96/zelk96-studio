@@ -12,8 +12,17 @@ Blenderとゲーム制作の学習・開発記録。新しい記事から順に�
 
 {% assign blender_posts = site.pages | where: "learning_log", true | sort: "day" | reverse %}
 {% for post in blender_posts %}
+
 - [{{ post.title }}]({{ post.url | relative_url }}) <span class="learning-date">— {{ post.date | date: "%Y.%m.%d" }}</span>
-{% endfor %}
+  {% endfor %}
+
+## Blender Note
+
+{% assign blender_notes = site.pages | where: "blender_note", true | sort: "note_order" %}
+{% for post in blender_notes %}
+
+- [{{ post.title }}]({{ post.url | relative_url }}) <span class="learning-date">— {{ post.date | date: "%Y.%m.%d" }}</span>
+  {% endfor %}
 
 ## Unity・ゲーム制作
 
