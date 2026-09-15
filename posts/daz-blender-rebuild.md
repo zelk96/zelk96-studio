@@ -47,6 +47,8 @@ DAZ側で左右のHand関連MorphをFavorite登録し、再度Easy Importする�
 
 に正常に表示された。
 
+![Favorite登録]({{ '/images/blender-note/20260914/01.png' | relative_url }})
+
 ### メモ
 
 Blender側で使いたいDAZ Morphは、事前にDAZ Studio側でFavorite登録しておく。
@@ -130,6 +132,8 @@ Merge後はOutlinerもかなり整理された。
 
 元のHair Meshをそのまま使っている状態で`neck1`を10度程度回転させると、髪が大きく引き伸ばされて破綻した。
 
+![髪が大きく引き伸ばされて破綻した状態]({{ '/images/blender-note/20260914/02.png' | relative_url }})
+
 最初はウェイトやArmature Modifierの問題を疑ったが、旧アニメーションファイルを確認すると、
 
 `Hair FE Side Part Straight Hair Mesh`
@@ -139,6 +143,13 @@ Merge後はOutlinerもかなり整理された。
 つまり、以前はDiffeomorphicの`Make Hair`を使ってHair MeshをHair Curvesへ変換していた。
 
 ### Make Hairの設定
+
+1. オブジェクトモードでHair Meshを選択
+2. Shiftを押しながらモデルのMeshも選択
+3. 最後にHair MeshをクリックしてHair Meshをアクティブ側にする
+4. DAZ Setup → ヘアー → Make Hair
+5. 出てきたダイアログで下記の設定を入れる
+6. 実行
 
 `DAZ Setup > Hair > Make Hair`
 
