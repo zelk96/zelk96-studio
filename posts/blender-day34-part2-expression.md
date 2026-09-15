@@ -3,10 +3,9 @@ layout: default
 title: "Blender実制作 Day34（中編）：DAZ Runtimeで冷淡な見下ろし表情を作る"
 description: "DiffeomorphicのStandard MorphsとFACSを読み込み、まぶたと眼球の動きを切り分けながら、Jiuyin Zhuの冷たい見下ろし表情を作ったDay34中編。"
 permalink: /posts/blender-day34-part2-expression.html
-date: '2026-09-12'
+date: "2026-09-12"
 display_date: 2026.09.12
-learning_log: true
-day: 34.2
+blender_note: true
 ---
 
 # Blender実制作 Day34（中編）：DAZ Runtimeで冷淡な見下ろし表情を作る
@@ -78,25 +77,25 @@ DAZ Runtimeの`FACS → Eyes`を確認すると、左右個別の項目とは別
 
 ### Active Morphs
 
-| モーフ | 値 |
-| --- | ---: |
-| `Eye Look Automatic` | 1.000 |
-| `Eye Look Down Left` | 0.350 |
-| `Eye Look Down Right` | 0.350 |
-| `Eye Look Side-Side` | -0.300 |
-| `Eye Look Up-Down` | -1.000 |
-| `Eye Squint Left` | 0.150 |
-| `Eye Squint Right` | 0.150 |
-| `Mouth Sticky Power` | 1.000 |
+| モーフ                |     値 |
+| --------------------- | -----: |
+| `Eye Look Automatic`  |  1.000 |
+| `Eye Look Down Left`  |  0.350 |
+| `Eye Look Down Right` |  0.350 |
+| `Eye Look Side-Side`  | -0.300 |
+| `Eye Look Up-Down`    | -1.000 |
+| `Eye Squint Left`     |  0.150 |
+| `Eye Squint Right`    |  0.150 |
+| `Mouth Sticky Power`  |  1.000 |
 
 ### FACSとEye Adjustments
 
-| カテゴリ | モーフ | 値 |
-| --- | --- | ---: |
-| FACS / Eyes | `Eye Look Side-Side` | -0.300 |
-| FACS / Eyes | `Eye Look Up-Down` | -1.000 |
-| Eye Adjustments | `Eye Look Down Left` | 0.350 |
-| Eye Adjustments | `Eye Look Down Right` | 0.350 |
+| カテゴリ        | モーフ                |     値 |
+| --------------- | --------------------- | -----: |
+| FACS / Eyes     | `Eye Look Side-Side`  | -0.300 |
+| FACS / Eyes     | `Eye Look Up-Down`    | -1.000 |
+| Eye Adjustments | `Eye Look Down Left`  |  0.350 |
+| Eye Adjustments | `Eye Look Down Right` |  0.350 |
 
 左右個別の`Eye Look Side-Side Left/Right`と`Eye Look Up-Down Left/Right`は`0.000`のままにした。
 

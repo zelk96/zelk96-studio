@@ -6,7 +6,6 @@ permalink: /posts/blender-arm-ik-contact-lock.html
 date: "2026-09-13"
 display_date: 2026.09.13
 blender_note: true
-note_order: 2
 ---
 
 # Blenderで腕をIK化し、手を別モデルへ固定する方法

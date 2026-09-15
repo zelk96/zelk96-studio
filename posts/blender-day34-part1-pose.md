@@ -3,10 +3,9 @@ layout: default
 title: "Blender実制作 Day34（前編）：監獄シーンへ配置して女幹部のポーズを作る"
 description: "Diffeomorphic版のJiuyin Zhuを自作の監獄へ配置し、接地・構図・全身ポーズを調整して、再利用可能なポーズアセットとして保存したDay34前編。"
 permalink: /posts/blender-day34-part1-pose.html
-date: '2026-09-12'
+date: "2026-09-12"
 display_date: 2026.09.12
-learning_log: true
-day: 34.1
+blender_note: true
 ---
 
 # Blender実制作 Day34（前編）：監獄シーンへ配置して女幹部のポーズを作る
@@ -103,12 +102,12 @@ Jiuyin_FemaleExecutive_Standing_01
 
 そこで、プリファレンスの「アセットライブラリ」から次のライブラリを追加した。
 
-| 項目 | 設定 |
-| --- | --- |
-| ライブラリ名 | `3DCG Assets` |
-| パス | `D:\3DCG\BlenderAssets` |
-| インポート方法 | アペンド |
-| 相対パス | 有効 |
+| 項目           | 設定                    |
+| -------------- | ----------------------- |
+| ライブラリ名   | `3DCG Assets`           |
+| パス           | `D:\3DCG\BlenderAssets` |
+| インポート方法 | アペンド                |
+| 相対パス       | 有効                    |
 
 ![3DCG Assetsに表示されたポーズアセット]({{ '/images/day34-pose/05.jpg' | relative_url }})
 

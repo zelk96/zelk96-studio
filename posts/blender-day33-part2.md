@@ -3,10 +3,9 @@ layout: default
 title: "Blender実制作 Day33（後編）：別ファイルの帽子をDAZキャラクターへ装着する"
 description: "別のBlendファイルで制作した帽子をアペンドし、Emptyとチャイルド制約で頭へ追従させ、ヘアーカーブの貫通を修正したDay33後編の制作記録。"
 permalink: /posts/blender-day33-part2.html
-date: '2026-09-11'
+date: "2026-09-11"
 display_date: 2026.09.11
-learning_log: true
-day: 33
+blender_note: true
 ---
 
 # Blender実制作 Day33（後編）：別ファイルの帽子をDAZキャラクターへ装着する
@@ -126,14 +125,14 @@ Day33前編では、Diffeomorphicを使ってDAZ StudioのキャラクターをB
 
 設定内容は次のとおり。
 
-| 項目 | 設定 |
-| --- | --- |
+| 項目       | 設定                                     |
+| ---------- | ---------------------------------------- |
 | ターゲット | 新キャラクターのアーマチュア`Jiuyin Zhu` |
-| ボーン | `head` |
-| 位置 | X・Y・Zを有効 |
-| 回転 | X・Y・Zを有効 |
-| スケール | X・Y・Zを有効 |
-| 影響 | 1.000 |
+| ボーン     | `head`                                   |
+| 位置       | X・Y・Zを有効                            |
+| 回転       | X・Y・Zを有効                            |
+| スケール   | X・Y・Zを有効                            |
+| 影響       | 1.000                                    |
 
 ### 同名の身体メッシュを選ぶとボーンを指定できない
 

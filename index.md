@@ -12,8 +12,9 @@ title: Home
 
 ## Latest
 
-{% assign blender_posts = site.pages | where: "learning_log", true | sort: "day" | reverse %}
+{% assign blender_posts = site.pages | where: "blender_note", true | sort: "date" | reverse %}
 {% for post in blender_posts limit: 1 %}
+
 ### [{{ post.title }}]({{ post.url | relative_url }})
 
 <p class="learning-date">投稿日：{{ post.date | date: "%Y.%m.%d" }}</p>

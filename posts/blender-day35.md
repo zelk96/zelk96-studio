@@ -5,8 +5,7 @@ description: "DAZのGenesis 9男性モデルを監獄シーンへ追加し、女
 permalink: /posts/blender-day35.html
 date: "2026-09-13"
 display_date: 2026.09.13
-learning_log: true
-day: 35
+blender_note: true
 ---
 
 # Blender実制作 Day35｜POVシーンに男性モデルを追加し、接触IK付きアニメーションを作る

@@ -6,7 +6,6 @@ permalink: /posts/blender-foot-ik-high-heel-lock.html
 date: "2026-09-13"
 display_date: 2026.09.13
 blender_note: true
-note_order: 3
 ---
 
 # Blenderでハイヒールの足首とつま先を地面へ固定する方法
