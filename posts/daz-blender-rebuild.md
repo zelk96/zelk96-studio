@@ -5,7 +5,7 @@ description: "DAZ StudioからBlenderへモデルを再構築する中で発生�
 permalink: /posts/daz-blender-rebuild.html
 date: "2026-09-14"
 display_date: 2026.09.14
-learning_log: true
+blender_note: true
 ---
 
 # DAZ→Blender再構築で詰まったポイントまとめ：衣装Morph・Merge Rigs・Hair Curves
