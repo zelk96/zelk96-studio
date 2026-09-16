@@ -12,7 +12,7 @@ blender_note: true
 
 ![破れたパンツ](/zelk96-studio/images/blender-note/20260916/01.png)
 
-身体がパンツを貫通してるので直す。
+パンツ破れてるから直す。
 
 1. アウトライナーからパンツのオブジェクトを選択
 2. Tab → 編集モード
