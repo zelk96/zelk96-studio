@@ -41,6 +41,54 @@ blender_note: true
 
 完成！
 
+## 作成したテンプレを使用する
+
+まず モデルの Armatureを選択したまま、下のエリアを NLA Editor に切り替える。
+そのあと本編ファイルのActionはPush Downしない。ここ超重要。
+
+1. File → Append → makeActions.blend → Action から作成したActionファイルを読み込む
+   今回は以下6つ
+
+- Idle_Breath
+- Idle_WeightShift
+- Idle_HeadMicro
+- Blink_Normal
+- Blink_Slow
+- Blink_Double
+
+2. モデルの Armature を選択
+3. Python Consoleを開いて、以下コードを実行して空のトラックを作成する
+
+```python
+obj = bpy.context.active_object; track = obj.animation_data.nla_tracks.new(); track.name = "TR_Idle_Breath"
+```
+
+まとめて追加する場合は
+
+```python
+obj = bpy.context.active_object
+for name in ["TR_Idle_WeightShift", "TR_Idle_HeadMicro", "TR_Blink"]:
+    if not obj.animation_data.nla_tracks.get(name):
+        track = obj.animation_data.nla_tracks.new()
+        track.name = name
+```
+
+4. できたTrackを選択
+5. 追加 → アクション
+6. まず Idle_Breath を選ぶ
+7. そのStripの設定を
+
+- Blend = Add
+- Influence = 0.7〜1.0
+- Repeat = シーン長に合う数
+
+8. 同じやり方で別Trackに
+
+- Idle_WeightShift
+- Idle_HeadMicro
+
+を追加
+
 ## 瞬きテンプレ（24fps）
 
 ### 通常
